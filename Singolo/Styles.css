@@ -15,7 +15,12 @@ body{
 
 .nav{
     width: 950px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     
+}
+
+.links{
+    width: 420px;
+    color: white;
+    float: right;
 }
