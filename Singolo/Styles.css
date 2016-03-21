@@ -48,8 +48,26 @@ body{
     background-color: #f06c64;
     text-align: center;
     padding-top: 50px;
-  
+    img-align: middle;
+    
 }
+
+.subhead{
+    color: #666d89;
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-top: 45px;
+    font-weight: 200;
+}
+
+.mainbodytext{
+    padding-top: 100;
+    color:#666d89;
+    padding-left: 30px;
+    font-size: 1.2em;
+    padding-bottom: 50;
+}
+
 
 @media screen and(max-width: 670px) {
     .header{
@@ -60,5 +78,6 @@ body{
         margin-top: 0px;
     }
 }
+
 
 
