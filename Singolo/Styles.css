@@ -1,12 +1,9 @@
 body{
     background-color: #f2f2f2;
     margin: 0; 
-
+    font-family: sans-serif;
 }
 
-*{
-    outline: solid yellow 1px;
-}
 .header{
     height: 90px;
     background-color: #2d303a;
@@ -14,18 +11,51 @@ body{
 }
 
 .nav{
-    width: 950px;
+    max-width: 950px;
     margin: auto;
     
 }
 
 .links{
     width: 420px;
-    color: white;
+    color: #44495b;
     float: right;
+    margin-top: 38px;
+    text-align: right;
+    font-size: 1.4em;
 }
 
 .links a{
     color: white;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.logo{
+    color: white;
+    width; 250px;
+    float: left;
+    margin-top: 28px;
+    font-size: 1.4em;
+}
+
+.salmon{
+    color: #f06c64;
+}
+
+.banner{
+    background-color: #f06c64;
+    text-align: center;
+}
+
+@media screen and(max-width: 670px) {
+    .header{
+        height: 120px;
+    }
+    
+    .links{
+        margin-top: 0px;
+    }
+}
+
